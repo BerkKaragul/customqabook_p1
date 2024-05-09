@@ -1,6 +1,6 @@
 package net.berk.booktestmodule.item;
 
-import net.berk.booktestmodule.booktestmodule;
+import net.berk.booktestmodule.customqabook_p1;
 import net.berk.booktestmodule.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, booktestmodule.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, customqabook_p1.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))

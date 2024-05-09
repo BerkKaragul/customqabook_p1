@@ -18,14 +18,14 @@ import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(booktestmodule.MOD_ID)
-public class booktestmodule
+@Mod(customqabook_p1.MOD_ID)
+public class customqabook_p1
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "booktestmodule";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public booktestmodule() {
+    public customqabook_p1() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
